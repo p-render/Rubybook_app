@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Treebook</title>
+  <title>Rubybook</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<h2><%= link_to "Rubybook", statuses_path %></h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<h1>Welcome to Rubybook</h1>
+		<h3>Track your progress through Rails!</h3>
+		<%= yield %>
+	</div>
 </body>
 </html>

@@ -11,3 +11,31 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+	padding-top: 60px;
+}
+
+.brand {
+	font-family: arial, sans-serif;
+	font-style: bold;
+	font-size: 24px;
+
+}
+
+.navbar-inner {
+	background-color: #ccc;
+
+}
+
+#postit {
+	
+	margin:10px 0px;
+	
+}
+
+#lowbar {
+	margin: 100px 0px 0px 0px;
+	padding: 10px;
+	background-color: #ccc;
+}
